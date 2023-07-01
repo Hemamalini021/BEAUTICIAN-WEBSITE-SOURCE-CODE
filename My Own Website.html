@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hema's Beauty parlour</title>
+    <link rel="stylesheet" href="beauty.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+<section class="header">
+
+  <nav>
+    <a href="My Own Website.html"> <img src="Images/cc.png"></a>
+    
+        <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"> </i>
+            <ul>
+            
+             
+            <li><a href="">HOME</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">LOCATION</a></li>
+            <li><a href="">BOOK NOW</a></li>
+            <li><a href="">CONTACT</a></li>
+
+            </ul>
+
+           </div>
+
+           <i class="fa fa-bars" onclick="showMenu()"> </i>
+
+       </nav>
+
+       <div class="text-box">
+           <h1>Glow Your Face & Vitality With Our Best Service</h1><br>
+           <p> Can Look Fabulous And Shiny Without Extra Effort </p>
+           <br><br>
+           <a href="" class="hero-btn">Discover More</a>
+
+
+
+       </div>
+
+
+    </section>
+
+    <!------Course------->
+
+    <section class="course">
+        <h1>Services We Offer</h1>
+        <p>What Our Magicians Can Do For You</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3><b>SKIN CARE</b></h3>
+                <p>Skin care is a range of practices that 
+                support skin integrity,enhance its appearance, and relieve 
+                skin conditions.</p>
+            </div>
+
+             <div class="course-col">
+                <h3>HAIR CARE</h3>
+                <p>Hair care is an overall term for hygiene 
+                and cosmetology involving the hair which grows from
+                 the human scalp, and to a lesser extent facial, 
+                 pubic and other body hair.</p>
+            </div>
+
+            <div class="course-col">
+
+                <h3>BODY CARE</h3>
+                <p>Body care means how an individual performs applications
+                 of dressings and ointments or lotions to their 
+                 body,trims their toe- nails, and applies lotion 
+                 to their feet.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--------About-------->
+
+    <section class="About">
+
+     <h1>Creating Experiences With Businesses</h1>
+
+     <p>Beauty was conceived with the idea of the modern Indian. Founded by M. Hema, whose knowledge of the international beauty industry pioneered a new era in the hair and beauty care industry in India, 
+        Naturals has made a path-breaking change in the way the beauty industry has been perceived. 
+        So in the early 2000s, she made that dream a reality by setting up her first salon in Chennai. 
+        It took her only a while to understand the market potential and the ever-increasing demand for professional grooming.</p>
+
+
+        <div class="row">
+            <div class="About-col">
+                <img src="Images/cut.jpg">
+                <div class="layer">
+                <h3>HAIRCARE</h3>
+                </div>
+            </div>
+            <div class="About-col">
+                <img src="Images/relax.jpg">
+                <div class="layer">
+                <h3>SKINCARE</h3>
+                </div>
+            </div>
+            <div class="About-col">
+                <img src="Images/seat.jpg">
+                <div class="layer">
+                <h3>SALON</h3>
+                </div>
+            </div>
+
+        </div>
+
+</section>
+
+<!--------Google Maps----------->
+
+<section  class="Location">
+
+<h2>Location</h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.3047960826048!2d78.56734291476556!3d12.49594539116924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac54744764101b%3A0x5a7bb01ec2b50f2a!2sTirupattur%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1676559783562!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    
+</section>
+
+
+
+
+
+
+
+
+     <!------------Javascript for toggle Menu--------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+            navLinks.style.display="block"
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.display="none";
+            
+
+        }
+    </script>
+
+
+</body>
+</html>
+ 
